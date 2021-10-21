@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SimpleNote</string>
+    <string name="typeYourNote">Type your note</string>
+    <string name="textColor">Text color</string>
+    <string name="auto">Auto</string>
+    <string name="backgroundColor">Background color</string>
+    <string name="alignment">Alignment</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="center">Center</string>
+    <string name="exportAsHTMLFile">Export as HTML file</string>
+    <string name="documentExportedSuccessfully">Document exported successfully</string>
+    <string name="failedExportDocument">Failed to export document.</string>
+    <string name="nameYourDocument">Name your document</string>
+    <string name="pickYourImage">Pick your image</string>
+    <string name="textSize">Text size</string>
+
+    <string name="insertImage">Insert image</string>
+    <string name="defaultSheet">Default sheet</string>
+    <string name="switchNote">Switch note</string>
+    <string name="save">Save</string>
+    <string name="sheetName">Sheet name</string>
+    <string name="newSheet">New sheet</string>
+    <string name="sheets">Sheets</string>
+
+</resources>

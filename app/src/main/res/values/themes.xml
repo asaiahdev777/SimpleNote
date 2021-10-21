@@ -1,0 +1,33 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.SimpleNote" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="android:windowBackground">?attr/colorBackground</item>
+        <item name="colorPrimary">@color/teal_200</item>
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="android:windowFullscreen">true</item>
+
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
+
+        <item name="alertDialogStyle">@style/AlertDialogTheme</item>
+        <item name="android:alertDialogStyle">@style/AlertDialogTheme</item>
+        <item name="android:popupBackground">?attr/colorBackground</item>
+
+    </style>
+
+    <style name="DayTheme" parent="Theme.SimpleNote">
+        <item name="colorBackground">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="NightTheme" parent="Theme.SimpleNote">
+        <item name="colorBackground">@color/darkGray</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">?colorBackground</item>
+    </style>
+
+</resources>
